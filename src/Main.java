@@ -8,7 +8,7 @@ public class Main {
         System.out.println("请输入你的猜拳：");
         // 生成随机数
         SecureRandom random = new SecureRandom();
-        String[] guess = {"剪刀", "石头", "布"};
+        String[] guess = {"剪刀", "石头", "布d"};
         int computerChoice = random.nextInt(3);
         String computerGuess = guess[computerChoice];
         // 打印计算机的猜拳
