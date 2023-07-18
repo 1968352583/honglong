@@ -1,6 +1,6 @@
 public class ArrayDemo {
     public static void main(String[] args) {
-        // 创建一个整型数组并初始化
+        // 创建一个整型数组并初始化111
         int[] arr = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10};
         int sum = 0;
         // 遍历数组，计算总和
